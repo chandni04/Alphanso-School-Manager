@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title id="name">Alphonsa School</title>
+<link rel="icon" type="image/jpg" href="images/LOGO.jpg">
+<link rel="stylesheet" href="Contactus.css">
+<script type="text/javascript">
+function disp_alert(txt)
+{
+alert(txt);
+}
+
+</script>
+</head>
+
+<body>
+	 <div id="titlename">
+  		<h1 id="schoolname"><i>ALPHONSA SCHOOL,MIRAJ</i></h1>
+        <h2 id="tagline"><pre><i>Towards Promising Future...
+        	To love God and men</pre></i></h2>
+       
+    </div>
+    <div id="slider">
+    	
+    	<div id="leftpart">
+        	<ul id="leftlist">
+            	<li id="first" class="firstanim"><a href="#"><img src="images/Contactus/chemical reaction.JPG" width="400px" height="240px" /></a></li>
+                <li id="second" class="secondanim"><a href="#"><img src="images/Contactus/preserve.jpg" width="400px" height="240px" /></a></li>
+                <li id="third" class="thirdanim"><a href="#"><img src="images/Contactus/success2.jpg" width="400px" height="240px" /></a></li>
+                <li id="fourth" class="fourthanim"><a href="#"><img src="images/Contactus/glory.jpg" width="400px" height="240px" /></a></li>
+               
+            </ul> 
+        </div>
+       <div id="rightpart">
+       	<ul id="rightlist">
+        	 <li id="firstq" class="firstanimq"><p><br /><br />
+"The meeting of two personalities is like the contact of two chemical substances: if there is any reaction, both are transformed."</p></li>
+             <li id="secondq" class="secondanimq"><p><br /><br />“Each contact with a human being is so rare, so precious, one should preserve it.”</p></li>
+             <li id="thirdq" class="thirdanimq"><p><br /><br />“Success…seems to be connected with action. Successful people keep moving. They make mistakes, but they don’t quit.”
+–Conrad Hilton</p></li>
+             <li id="fourthq" class="fourthanimq"><p><br /><br />“Nothing great will ever be achieved without great men, and men are great only if they are determined to be so.  For glory gives herself only to those who have always dreamed of her.”
+–Charles De Gaulle</p></li>
+        </ul>
+       </div>
+    </div>
+    
+    <div id="menu">
+    	<nav id="rolling-nav">
+        	<ul>
+      			<li><a href="index.php" data-clone="Home">Home</a></li>
+                <li><a href="index_calendar.php" data-clone="Calendar">Calendar</a></li>
+                <li><a href="index_gallery.php" data-clone="Gallery">Gallery</a></li>
+                <li><a href="index_faculty.php" data-clone="Faculty">Faculty</a></li>
+                <li><a href="index_tutorial.php" data-clone="Tutorial">Tutorial</a></li>
+                <li><a href="index_feedback.php" data-clone="Feedback">Feedback</a></li>
+                <li><a href="index_contactus.php" data-clone="Contactus">Contactus</a></li>
+	        </ul>
+        </nav>
+    </div>
+
+    <div id="contactus">
+		<h1 id="cnthead1">Contact us.</h1>
+    	<h2 id="cnthead1">We look forward to hear you!<br />Please fill out the form below and click "Submit." We will get back to you as soon as possible!</h2>
+    	
+        <div id="contactfields">
+          <form action="contact.php" method="post" onclick="disp_alert("wELCOME")">
+              <label id="namelbl">Name*:</label>
+              <input type="text" id="namefield" name="name"/>
+              <label id="bday">Your Birth Date:</label>
+              <input type="date" id="bdayfield" name="bday"/>
+              <label id="sco">school/college/office:</label>
+              <input  type="text" id="scofield" name="sco"/>
+              <label id="ea">Email Address*:</label>
+              <input type="textt" id="eafield" name="eaaddr"/>
+              <label id="cno">Contact Number:</label>
+              <input type="text" id="cnofield" name="contact"/>
+              <label id="msg">Your Message*:</label>
+              <textarea id="msgfield" cols="25" rows="5" name="message"></textarea>
+              <button type="submit" value="Submit" id="submit">Submit</button>
+          </form>
+        </div>
+	</div>
+
+
+    
+</body>
+</html>

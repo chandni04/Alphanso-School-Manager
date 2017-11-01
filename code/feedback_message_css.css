@@ -1,0 +1,20 @@
+body
+{
+	background:url(images/main_background.jpg);
+}
+#container
+{
+	position:relative;
+	left:25%;
+	top:180px;
+	width:650px;
+	height:200px;
+	background-color:rgb(255,255,255);
+	border-radius:15px;
+}
+#container p
+{
+	font-size:36px;
+	font-weight:bold;
+	text-align:center;
+}
